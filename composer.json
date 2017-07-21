@@ -1,0 +1,20 @@
+{
+    "name": "jhohenr/escudos",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jhonatan Henrique",
+            "email": "jhonatan@jhohenr.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Escudos\\": "src/"
+        }
+    },
+    "require": {
+        "slim/slim": "3.0",
+        "paquettg/php-html-parser": "1.7.0"
+    }
+}
